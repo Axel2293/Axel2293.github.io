@@ -1,5 +1,137 @@
-<title>Axel's crib</title>
-<h1>Axel Escoto Garcia </h1>
-<div>------WORK IN PROGRESS :p------</div>
-<div>Random thoughts go here:</div>
-<textarea></textarea>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Skills Presentation</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Optional custom styles */
+      body {
+        padding-top: 70px; /* Adjust based on navbar height */
+        background-color: #f8f9fa;
+      }
+      .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">CompSci Student</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownProjects"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownProjects"
+              >
+                <a class="dropdown-item" href="#">Project 1</a>
+                <a class="dropdown-item" href="#">Project 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">View All Projects</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/your-github-username"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.linkedin.com/in/your-linkedin-username"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="./images/SQR.png"
+            alt="Profile Picture"
+            class="profile-image img-fluid"
+          />
+        </div>
+        <div class="col-md-8">
+          <h1>Axel Escoto García</h1>
+          <p class="lead">
+            C, Java and Backend Developer | 6th Semester | ITESO
+          </p>
+          <hr />
+          <h3>Skills</h3>
+          <ul>
+            <li>C (POSIX)</li>
+            <li>Java</li>
+            <li>JavaScript (Backend, REST API)</li>
+            <li>Data Analysis (Python, Pandas, SKLearn, Matplotlib)</li>
+            <li>
+              Database Management (MySQL, T-SQL, MongoDB, Cassandra, Dgraph)
+            </li>
+            <li>Web Development (HTML/CSS/JS)</li>
+            <li>Version Control (Git)</li>
+          </ul>
+          <hr />
+          <h3>Experience</h3>
+          <h4>IT Intern at Dreamfields Mexico</h4>
+          <p>Date: 2024 - Present</p>
+          <p><strong>Responsibilities:</strong></p>
+          <ul>
+            <li>Updating and maintaining festival website</li>
+            <li>Providing on-site help desk support</li>
+            <li>Assisting in creating new web pages for 2024 edition</li>
+          </ul>
+          <hr />
+          <h3>Education</h3>
+          <p>ITESO, Ing. en Sistemas Computacionales</p>
+          <p>August 2021 - Present | Expected Graduation: 2025</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Include Bootstrap JS (required for dropdown functionality) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
